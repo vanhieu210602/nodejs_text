@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hearder{
+    height: 60px;
+    width: 200px;
+    background: rgb(118, 164, 238);
+    margin: 20px auto;
+}
+.hearder p{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.main{
+    font-family: Helvetica,sans-serif;
+    text-align: center;
+}
+.main .main1{
+    color: rgb(69, 166, 231);
+}
+.btn-list li{
+    display: inline;
+    margin: 0 12px;
+}
+.btn-list li a{
+    text-decoration: none;
+    background-color: #2d3032;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    height: 56px;
+    line-height: 56px;
+    min-width: 170px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+.tonghop{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.btn-list li a:hover {
+    background-color: #00aeef;
+}
+.btn-list{
+    text-align: center;
+}

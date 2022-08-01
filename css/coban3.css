@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.modau{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.warpper{
+    margin-top: 20px;
+    height: 400px;
+    width: 700px;
+    background-color: rgb(232, 230, 228);  
+}
+.warpper .icon {
+    border: 2px solid #5ac6d0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 60px;
+    margin-bottom: 35px;
+    line-height: 64px;
+    width: 56px;
+    margin-top: 25px;
+}
+.warpper .icon i {
+    color: #5ac6d0;
+    font-size: 24px;
+}
+.warpper .vanban{
+    padding: 25px;
+}
+.warpper .email input{
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 380px;
+    padding: 20px 10px;
+    
+}
+.warpper .btn button{
+    height: 60px;
+    width: 160px;
+    border-radius: 5px;
+    background-color: darkseagreen;
+    color: white;
+    margin-top: 20px;
+    border: 1px solid darkseagreen;
+}
+.warpper .btn button:hover{
+    background-color: #d30b33;
+    cursor: pointer;
+    transition: 0.3 all;
+}

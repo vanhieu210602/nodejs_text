@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 700px;
+    width: 1110px;
+    background: #9e9e9e42;
+    margin: 0 20px;
+    font-family: Helvetica,sans-serif;
+    
+}
+.hocwebchuan{
+    margin-block: 40px;
+}
+.hocwebchuan li{
+    display: inline-block;
+}
+.header .hocwebchuan .service-image img{
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    margin: 0 20px;
+}
+.header .hocwebchuan .inner{
+    height: 150px;
+    width: 300px;
+    background: white;
+    margin: 0 20px;
+}
+.content1{
+    text-align: center;
+}
+.content1 h1{
+    padding: 20px;
+}
+.inner h3{
+    margin: -3px;
+    padding: 10px;
+}
